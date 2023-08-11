@@ -22,6 +22,8 @@ print(total_result)
 n8 = 3
 n9 = 5
 
-n = 7
+
 n += 1
 print(n)
+print( 'Ваня спасибо большое')
+
