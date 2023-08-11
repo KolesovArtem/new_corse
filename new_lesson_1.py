@@ -51,7 +51,14 @@ print("R =", r1, r2)
 print("AND, OR, NOT --> Result =", result2)
 
 print()
-if a1 > 10:
+if a1 < a4:
     print('TRUE item1')
+elif a1 < a2:
+    print('TRUE item2')
+elif a1 == 10:
+    print('TRUE item3')
+
+
+
 else:
-    print('FALSE item2')
+    print('FALSE item4')

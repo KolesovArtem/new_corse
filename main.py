@@ -19,3 +19,6 @@ result_string = 'Result ='
 total_result = result_string + ' ' + result
 print(total_result)
 
+n8 = 3
+n9 = 5
+
