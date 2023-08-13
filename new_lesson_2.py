@@ -55,3 +55,44 @@ import time
 #         count += 1
 #         iter_count += 1
 #         time.sleep(0.500)
+
+
+# ll = [11, 22, 33, 44]    # Переменная со списком.
+# for i in ll:
+#     print(i)
+#     time.sleep(0.500)
+
+
+# for i in range(0,10 +1):
+#     print(i)
+#     time.sleep(0.500)
+
+
+#ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77] # Когда доходим до списка букв его можно тоже проитерировать.
+# for i in ll:
+#     print(i)
+#     time.sleep(0.500)
+
+# ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77]
+# for i in ll:
+#     print(i, ll.index(i))
+#     time.sleep(0.500)
+# print(i) - принтуем элемент, выводим функцию index у списка и скормить ей каждый элемент, i функция вернет индекс этого элемента
+
+
+# ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77]
+# count = 0
+# for i in ll:
+#     print(count, ll[count])
+#     count += 1
+#     time.sleep(0.500)
+
+
+ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77]
+count = 0
+for i in range(0, ll.length):     #длинна списка
+    print(count, ll[count])
+    count += 1
+    time.sleep(0.500)
+
+
