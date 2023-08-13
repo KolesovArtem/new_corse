@@ -88,11 +88,33 @@ import time
 #     time.sleep(0.500)
 
 
-ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77]
+# ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77]
+# print(len(ll))
+# count = 0
+# for i in range(0, len(ll)):     #длинна списка (8 элементов)
+#     print(i, ll[i])
+#     count += 1
+#     time.sleep(0.500)
+
+# ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77, 88, 99]
+# print(len(ll))
+# count = 0
+# for i in range(0, len(ll)):     #длинна списка (10 элементов)
+#     print(i, ll[i])
+#     if i == 5:
+#        print('--------')
+#     time.sleep(0.500)
+
+ll = [11, 22, 33, 44, 55, ['qq', 'ww', 'ee', 'rr', 'tt', 'yy'], 66, 77, 88, 99]
+print(len(ll))
 count = 0
-for i in range(0, ll.length):     #длинна списка
-    print(count, ll[count])
-    count += 1
-    time.sleep(0.500)
+for i in range(0, len(ll)):  # длинна списка (10 элементов)
+        print(i, ll[i])
+        if i == 5:
+            for ii in ll[i]:    # заходим в этот цикл как только i=5, d в элементе списка ll под индексом 5 - итерируем ii
+                print('---', ii)
+        time.sleep(0.500)
+
+
 
 
